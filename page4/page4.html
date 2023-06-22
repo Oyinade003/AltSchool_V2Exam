@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form </title>
-    <link rel="stylesheet" href="./page4.css"/>
+    <link rel="stylesheet" href="./page4.css" />
 </head>
+
 <body>
     <div class="form">
-        <input placeholder="Paste URL here..." style="color: #005AE2;"/>
+        <input placeholder="Paste URL here..." style="color: #005AE2; padding: 10px 98px 10px 98px ;" />
         <div style="color: #005AE2;">
-            <input placeholder="Choose Domain"/>
-            <input placeholder="Type Aliass here"/>
+            <label for="domain"> </label></b>
+            <select id="domain" style="padding: 10px 30px 10px 30px;">
+                <option value="1"> Choose Domain </option>
+            </select>
+            <input placeholder="Type Alias here" style="padding: 10px -10px 10px -10px;" />
         </div>
         <button> Trim URL </button>
-        <p> By clicking TrimURL, I agree to the <span style="color: #005AE2;"> Terms of Service, Privacy Policy</span> and Use of Cookies.</p>
+        <p> By clicking TrimURL, I agree to the <span style="color: #005AE2; font-weight: bold;"> Terms of Service, Privacy Policy</span>
+            and Use of Cookies.</p>
     </div>
 </body>
+
 </html>

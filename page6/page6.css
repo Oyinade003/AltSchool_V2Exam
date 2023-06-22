@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+button{
+    color: #fff;
+    background-color: #005AE2;
+    border: #005AE2 solid 2px;
+    border-radius: 30px;
+    padding: 8px 50px 8px 50px;
+}
+
+h1{
+    padding-top: 300px;
+}
