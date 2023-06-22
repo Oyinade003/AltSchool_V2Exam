@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    background-color: #005AE2;
+    color: #fff;
+}
+
+.form{
+    width: 500px;
+    height: 500px;
+    align-items: center;
+}
