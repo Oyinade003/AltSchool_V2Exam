@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #1E3448;
 }
 
 button{
@@ -14,12 +15,16 @@ button{
 
 .form{
     width: 380px;
-    height: 500px;
+    height: 280px;
     padding: 20px 20px 20px 20px;
     border: #fff solid 2px;
     border-radius: 20px;
     background-color: #fff;
     margin-top: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #domain{
@@ -37,4 +42,7 @@ input{
     color: #005AE2;
 }
 
-
+.rightwave{
+    float: right;
+    padding-top: 370px;
+}

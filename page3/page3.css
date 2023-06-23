@@ -8,22 +8,34 @@ body{
     padding-left: 500px;
 }
 
+.vr{
+    display: flex;
+}
+
 .pricing{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding-left: 150px;
-    padding-right: 90px;
+    margin-left: 150px;
+    margin-right: 90px;
     line-height: 30px;
-    padding-top: 20px;
+    margin-top: 70px;
+    border: #005AE2 1px solid;
+    border-radius: 15px;
+    flex-wrap: nowrap;
+    position: relative;
 }
 
 .professional{
-    background-color: #000;
+    background-color: #1E3448;
     padding: 40px 65px 40px 65px;
     color: #fff;
     border: #000 solid 1px;
     border-radius: 10px;
+    position: absolute;
+    left: 400px;
+    top: -50px;
+    bottom: -50px;
 }
 
 ul{
@@ -35,6 +47,7 @@ ul{
     padding-left: 530px;
     padding-right: 90px;
     padding-top: 40px;
+    margin-top: 100px;
 }
 
 .but1{
@@ -53,3 +66,10 @@ ul{
     margin-left: 20px;
 }
 
+.basic{
+    margin-left: 80px;
+}
+
+.teams{
+    margin-right: 80px;
+}

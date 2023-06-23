@@ -67,15 +67,40 @@ h2{
     padding: 8px 24px 8px 24px;
 }
 
-.layout3{
+.layout{
     display: flex;
+    background-color: #fff;
     flex-direction: column;
     margin-left: 500px;
     margin-right: 600px;
     margin-top: 60px;
     width: 600px;
-    height: 150px;
+    height: 250px;
     border: #005AE2 0.2px solid;
     border-radius: 24px;
-    background-image: linear-gradient(to right, #005AE2, #fff);
+    position: relative;
+}
+
+.layout3{
+    position: absolute;
+    z-index: 2;
+}
+
+.cone{
+    top: 460px;
+    z-index: 1;
+    left: 300px;
+}
+
+.underline{
+    padding-left: 570px;
+    height: 19.91px;
+    line-height: 2px;
+}
+
+.linkk{
+    height: 60px;
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
