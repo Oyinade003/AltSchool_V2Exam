@@ -251,11 +251,146 @@ input{
     color: #005AE2;
 }
 
-.rightwave{
+.rightwave1{
     padding-left: 98px;
     margin-top: 200px;
 }
 
-.leftwave{
+.leftwave1{
     margin-bottom: 200px;
+}
+
+.fifth{
+    padding-left: 150px;
+    padding-right: 150px;
+    background-image: url(../asets/Faqwave.png) ;
+    background-repeat: no-repeat;
+}
+
+.faq{
+    display: flex;
+    padding-left: 450px;
+}
+
+.minus{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.plus{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: #D6D6D6 solid 1px;
+}
+
+.plus1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: #D6D6D6 solid 1px;
+    border-top: #D6D6D6 solid 1px;
+}
+
+.button4{
+    color: #fff;
+    background-color: #005AE2;
+    border: #005AE2 solid 2px;
+    border-radius: 30px;
+    padding: 8px 15px 8px 15px;
+}
+
+.sixth{
+    background-color: #1E3448;
+    height: 400px;
+    display: flex;
+    position: relative;
+}
+
+.rightwave2{
+    padding-left: 500px;
+    padding-top: 200px;
+}
+
+.but{
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.footer{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 60px 200px 60px 140px;
+    line-height: 0px;
+    margin-bottom: 50px;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between; 
+    height: 200px;
+}
+
+.footer3{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between; 
+    height: 200px;
+}
+
+.footer4{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between; 
+    height: 200px;
+}
+
+.footer5{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between; 
+    height: 200px;
+}
+
+.foot{
+    display: flex;
+}
+
+.vertical{
+    border-left: 6px solid black;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+}
+
+.logo2{
+    background-color: black;
+}
+
+footer{
+    float: right;
+    padding-top: 200px;
 }

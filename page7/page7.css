@@ -17,7 +17,7 @@ body{
     flex-direction: column;
     align-items: left;
     justify-content: space-between;
-    height: 200px;
+    height: 100px;
 }
 
 .footer2{
@@ -61,4 +61,8 @@ body{
     height: 40px;
     position: absolute;
     left: 50%;
+}
+
+.logo2{
+    background-color: black;
 }
