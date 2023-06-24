@@ -1,0 +1,261 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+a{
+    color: #005AE2;
+    text-decoration: none;
+    padding-left: 80px;
+}
+
+.button1{
+    color: #fff;
+    background-color: #005AE2;
+    border: #005AE2 2px solid;
+    border-radius: 24px;
+    padding: 8px 18px 8px 18px;
+}
+
+.h2first{
+    width: 800px;
+    padding-left: 240px;
+    padding-right: 140px;
+    padding-top: 55px;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.pers{
+    width: 580px;
+    padding-left: 390px;
+    padding-right: 200px;
+    padding-top: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.layout2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 500px;
+    padding-right: 550px;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.button2{
+    color: #fff;
+    background-color: #005AE2;
+    border: #005AE2 2px solid;
+    border-radius: 24px;
+    padding: 8px 24px 8px 24px;
+}
+
+.layout{
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: 60px;
+    width: 600px;
+    height: 250px;
+    border: #005AE2 0.2px solid;
+    border-radius: 24px;
+    position: relative;
+}
+
+.layout3{
+    position: absolute;
+    z-index: 2;
+}
+
+.cone{
+    top: 460px;
+    z-index: 1;
+    left: 300px;
+}
+
+.underline{
+    padding-left: 570px;
+    height: 19.91px;
+    line-height: 2px;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+}
+
+.stop{
+    background-color: rgba(0, 90, 226, 0.1);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 60px 40px 60px 40px;
+}
+
+.stop1{
+    line-height: 20px;
+}
+
+.stop3{
+    width: 100px;
+}
+
+.stop4{
+    width: 150px;
+}
+
+.choice{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 46px;
+    padding: 60px 40px 60px 40px;
+}
+.choice1{
+    width: 720px;
+}
+
+.choice2{
+    width: 680px;
+}
+
+.choice3{
+    width: 700px;
+}
+
+.price{
+    width: 500px;
+    padding-left: 500px;
+}
+
+.vr{
+    display: flex;
+}
+
+.pricing{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 90px;
+    line-height: 30px;
+    margin-top: 70px;
+    border: #005AE2 1px solid;
+    border-radius: 15px;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.professional{
+    background-color: #1E3448;
+    padding: 40px 65px 40px 65px;
+    color: #fff;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    position: absolute;
+    left: 400px;
+    top: -50px;
+    bottom: -50px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.bottombut{
+    padding-left: 530px;
+    padding-right: 90px;
+    padding-top: 40px;
+    margin-top: 100px;
+}
+
+.but1{
+    color: #005AE2;
+    border: #005AE2 solid 2px;
+    border-radius: 30px;
+    padding: 10px 18px 10px 18px;
+}
+
+.but2{
+    background-color: #005AE2;
+    color: #fff;
+    border: #005AE2 solid 2px;
+    border-radius: 30px;
+    padding: 10px 40px 10px 40px;
+    margin-left: 20px;
+}
+
+.basic{
+    margin-left: 80px;
+}
+
+.teams{
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+.fourth{
+    background-color: #1E3448;
+    height: 500px;
+    position: relative;
+}
+
+.button3{
+    background-color: #005AE2;
+    color: #fff;
+    border: #005AE2 solid 2px;
+    border-radius: 25px;
+    padding: 8px 50px 8px 50px;
+}
+
+.form{
+    width: 380px;
+    height: 280px;
+    padding: 20px 20px 20px 20px;
+    border: #fff solid 2px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    left: 30%;
+    top: 65px;
+}
+
+#domain{
+    color: #005AE2;
+    border: #005AE2 solid 2px;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+}
+
+input{
+    border: #005AE2 solid 2px;
+    border-radius: 10px;
+    padding: 5px 10px 10px 5px;
+    margin-bottom: 20px;
+    color: #005AE2;
+}
+
+.rightwave{
+    padding-left: 98px;
+    margin-top: 200px;
+}
+
+.leftwave{
+    margin-bottom: 200px;
+}
